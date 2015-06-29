@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is my Flask app</title>
+</head>
+<p>This is the index.html template</p>
+<form action="/insert" method="post">
+	<input type="text" name="term" placeholder="Enter the term">
+	<br />
+	<textarea name="definition" placeholder="Enter the definition"></textarea>
+	<input type="submit" value="Click to Submit">
+</form>
+<p>There are {{ entries.count() }} terms in the database</p>
+</html>

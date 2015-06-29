@@ -1,0 +1,6 @@
+newrelic.ini
+*.pyc
+local.0
+local.ns
+mongod.lock
+
