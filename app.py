@@ -29,6 +29,6 @@ def mongo_insert():
     return render_template('list.html', term=term, definition=definition)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0' , port=5000)
 
 
